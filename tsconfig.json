@@ -33,7 +33,7 @@
     "jsx": "preserve",
     "rootDir": ".",
     "baseUrl": ".",
-    "types": ["jest", "@cloudflare/workers-types"],
+    "types": ["jest", "@cloudflare/workers-types", "headless-web3-provider"],
     "incremental": true,
     "paths": {
       "@app/*": ["./src/*"],
@@ -50,6 +50,6 @@
       }
     ]
   },
-  "include": ["next-env.d.ts", "mdx.d.ts", "**/*.ts", "**/*.tsx", "e2e/tsconfig.json"],
+  "include": ["next-env.d.ts", "mdx.d.ts", "**/*.ts", "**/*.tsx", "e2e/tsconfig.json", ".yalc/headless-web3-provider/dist/types.d.ts", "playwright/**/*" ],
   "exclude": ["custom-test-env.js", "e2e/**/*", "**/*.ignore.ts", "**/*.ignore.tsx"]
 }
