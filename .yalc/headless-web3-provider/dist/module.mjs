@@ -78,10 +78,13 @@ class $bd1a38e082154942$export$9a258a485ae90475 extends (0, $a841c95339c04de5$ex
         switch(method){
             case "eth_call":
             case "eth_estimateGas":
+            case "eth_gasPrice":
             case "eth_blockNumber":
             case "eth_getBlockByNumber":
             case "eth_getTransactionByHash":
             case "eth_getTransactionReceipt":
+            case "evm_increaseTime":
+            case "evm_mine":
                 return this.getRpc().send(method, params);
             case "eth_requestAccounts":
             case "eth_accounts":

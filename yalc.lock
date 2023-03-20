@@ -2,7 +2,7 @@
   "version": "v1",
   "packages": {
     "headless-web3-provider": {
-      "signature": "12c9d669447192a28f54bb3d5874669c",
+      "signature": "69ce5872e8ddd69b6ce1b60586cc2340",
       "file": true
     }
   }
